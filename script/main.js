@@ -28,7 +28,9 @@
 		piecePaths.forEach((piece, index) => {
 			puzzlePieces[index].src = `images/${piece + this.dataset.bgref}.jpg`;
 		})
-
+		while (theGameBoard.firstChild) {
+			theGameBoard.removeChild(theGameBoard.firstChild)
+		}
 		// `` => this is a javascript template string You can use it to write a bit of
 		// inline javascript which will be interpreted at runtime
 		// search for MDN JavaScript Template String
