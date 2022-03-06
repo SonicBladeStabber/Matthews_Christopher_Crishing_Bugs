@@ -1,10 +1,10 @@
 # Crishing_Bugs
-Assignment Description
+Assignment Description <br>
 Use the in-class build files (the Puzzle Drag and Drop) and fix the bugs that were discovered in
-class. This is a research assignment - solve the problems outlined in the brief.
+class. This is a research assignment - solve the problems outlined in the brief.<br>
 Create new branches (named appropriately) and update the functionality to improve
-the game UX.
-Assignment Requirements
+the game UX.<br>
+Assignment Requirements<br>
 In its current state, our puzzle game has at least a couple of bugs. You can drag and drop more
 than one puzzle piece into a drop zone - this shouldn’t happen. There should only be one piece
 in one drop zone at a time.
